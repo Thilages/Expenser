@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+# Expense Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![App Banner](./images/banner.png)
 
-## Get started
+## Overview
+The **Expense Tracker App** is a mobile application designed to help users manage their finances by tracking expenses through SMS transaction data. Built using modern technologies, the app offers a seamless experience with an intuitive design and powerful functionality for real-time expense calculation and analysis.
 
-1. Install dependencies
+---
 
+## Features
+- **SMS Parsing:** Automatically processes transaction messages to extract and calculate expenses.
+- **Real-Time Tracking:** Provides instant updates on spending habits and total expenses.
+- **User-Friendly Interface:** Designed with Tailwind CSS for a clean, responsive, and accessible UI.
+- **Data Storage:** Utilizes SQLite for efficient data management and storage.
+- **Cross-Platform Support:** Built with React Native to run seamlessly on both iOS and Android devices.
+
+---
+
+## Technologies Used
+- **React Native:** For building the cross-platform mobile application.
+- **Expo:** Simplifies the app development process and deployment.
+- **SQLite:** Handles local data storage and retrieval efficiently.
+- **Tailwind CSS:** Provides a streamlined and consistent design system.
+
+---
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/expense-tracker-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd expense-tracker-app
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+4. Start the development server:
    ```bash
-    npx expo start
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
+1. Launch the app on your mobile device using the Expo Go app or a simulator.
+2. Grant the necessary permissions to read SMS messages (Android-only feature).
+3. The app will automatically parse SMS transaction messages to display categorized expenses.
+4. View your total expenses and spending trends in real-time.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Screenshots
+### Home Screen
+![Home Screen](./images/home_screen.png)
 
-When you're ready, run:
+### Expense Overview
+![Expense Overview](./images/expense_overview.png)
 
-```bash
-npm run reset-project
-```
+### SMS Parsing
+![SMS Parsing](./images/sms_parsing.png)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Contribution
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Submit a pull request.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Acknowledgements
+- Thanks to the developers of React Native, Expo, and SQLite for providing the tools that make this project possible.
+- Special appreciation for the users who provided valuable feedback during development.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Contact
+For any inquiries, please reach out to [your-email@example.com](mailto:your-email@example.com).
+
