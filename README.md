@@ -1,6 +1,11 @@
 # Expense Tracker App
 
-![App Banner](./images/banner.png)
+## Screenshots
+### Home Screen
+![Home Screen](./screen-2.jpg)
+
+### Expense Overview
+![Expense Overview](./screen-3.jpg)
 
 ## Overview
 The **Expense Tracker App** is a mobile application designed to help users manage their finances by tracking expenses through SMS transaction data. Built using modern technologies, the app offers a seamless experience with an intuitive design and powerful functionality for real-time expense calculation and analysis.
@@ -52,15 +57,7 @@ The **Expense Tracker App** is a mobile application designed to help users manag
 
 ---
 
-## Screenshots
-### Home Screen
-![Home Screen](./images/home_screen.png)
 
-### Expense Overview
-![Expense Overview](./images/expense_overview.png)
-
-### SMS Parsing
-![SMS Parsing](./images/sms_parsing.png)
 
 ---
 
